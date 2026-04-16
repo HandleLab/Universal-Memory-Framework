@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Universal-Memory-Framework.vcxproj" Id="93da8539-2f6b-4641-a199-6473bfe6b2fc" />
+</Solution>

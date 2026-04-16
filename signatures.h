@@ -1,0 +1,15 @@
+#pragma once
+
+namespace Signatures
+{
+
+	//patterne
+	inline const unsigned char LocalPlayer[]{ 0xA1, 0x0, 0x0, 0x0, 0x0, 0x89, 0xB0, 0x0 };
+	inline const unsigned char EntityCount[]{ 0x38, 0xFF, 0x05, 0x0, 0x0, 0x0, 0x0, 0x8B, 0xC7 };
+	inline const unsigned char EntityList[]{ 0x0D, 0x0, 0x0, 0x0, 0x0, 0x8B, 0x34, 0x91 };
+
+	// masque
+	inline const char* maskLocalPlayer{ "x????xx?" };
+	inline const char* maskEntityCount{ "xxx????xx?" };
+	inline const char* maskEntityList{ "x????xxx?" };
+}
