@@ -37,12 +37,12 @@ public:
 	uintptr_t GetEntityList() const { return entityListPtr; }
 
 
-	// --- LE COEUR DU SDK INTERNE ---
+	
 
 	// cast de l'adresse en pointeur de type T et déréférencement 
 	template <typename T>
 	static T Read(uintptr_t address) {
-		if (address == 0) return T{}; // Renvoie la valeur par défaut du type de l'argument
+		if (address == 0) return T{}; // Renvoie la valeur par défaut du type de l'arg
 		return *(T*)address;
 	}
 

@@ -22,9 +22,9 @@ public:
 	void unHook();
 private:
 	
-	// --- La Mémoire du Hook ---
-	BYTE* targetAddr{ nullptr };      // L'adresse du JMP
-	BYTE originalBytes[10]{ 0 };     //sauvegarder des octets originaux
+	
+	BYTE* targetAddr{ nullptr };      // adresse du JMP
+	BYTE originalBytes[10]{ 0 };     //sauvegarde des octets originaux
 	uintptr_t hookLen{ 0 };         
 };
 
